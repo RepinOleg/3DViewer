@@ -1,0 +1,103 @@
+\hypertarget{classs21_1_1Transform}{}\doxysection{s21\+::Transform Class Reference}
+\label{classs21_1_1Transform}\index{s21::Transform@{s21::Transform}}
+
+
+Класс для преобразования модели  
+
+
+
+
+{\ttfamily \#include $<$model.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classs21_1_1Transform_a8d1366d101da32ba549288d88915d7b4}{Transform}} (\mbox{\hyperlink{classs21_1_1Model}{Model}} $\ast$model)
+\begin{DoxyCompactList}\small\item\em Конструктор класса transform. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classs21_1_1Transform_a84af23f461d11df6e896ff87e0b3a7b7}{Rotate}} (float angle, axes axis) noexcept
+\begin{DoxyCompactList}\small\item\em Поворот модели \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classs21_1_1Transform_aa5ce67a2b51aa9e8049499b7d6a37893}{Scale}} (float old\+\_\+scale, float new\+\_\+scale) noexcept
+\begin{DoxyCompactList}\small\item\em Масштабирование модели \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classs21_1_1Transform_ae2f3550329772ecf6cc41e6cab350035}{Move}} (float delta, axes Axis) noexcept
+\begin{DoxyCompactList}\small\item\em Перемещение модели \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Класс для преобразования модели 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classs21_1_1Transform_a8d1366d101da32ba549288d88915d7b4}\label{classs21_1_1Transform_a8d1366d101da32ba549288d88915d7b4}} 
+\index{s21::Transform@{s21::Transform}!Transform@{Transform}}
+\index{Transform@{Transform}!s21::Transform@{s21::Transform}}
+\doxysubsubsection{\texorpdfstring{Transform()}{Transform()}}
+{\footnotesize\ttfamily s21\+::\+Transform\+::\+Transform (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classs21_1_1Model}{Model}} $\ast$}]{model }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Конструктор класса transform. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em model} & Указатель на model \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classs21_1_1Transform_ae2f3550329772ecf6cc41e6cab350035}\label{classs21_1_1Transform_ae2f3550329772ecf6cc41e6cab350035}} 
+\index{s21::Transform@{s21::Transform}!Move@{Move}}
+\index{Move@{Move}!s21::Transform@{s21::Transform}}
+\doxysubsubsection{\texorpdfstring{Move()}{Move()}}
+{\footnotesize\ttfamily void s21\+::\+Transform\+::\+Move (\begin{DoxyParamCaption}\item[{float}]{delta,  }\item[{axes}]{Axis }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [noexcept]}}
+
+
+
+Перемещение модели 
+
+
+\begin{DoxyParams}{Parameters}
+{\em delta} & Смещение \\
+\hline
+{\em Axis} & Ось перемещения \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classs21_1_1Transform_a84af23f461d11df6e896ff87e0b3a7b7}\label{classs21_1_1Transform_a84af23f461d11df6e896ff87e0b3a7b7}} 
+\index{s21::Transform@{s21::Transform}!Rotate@{Rotate}}
+\index{Rotate@{Rotate}!s21::Transform@{s21::Transform}}
+\doxysubsubsection{\texorpdfstring{Rotate()}{Rotate()}}
+{\footnotesize\ttfamily void s21\+::\+Transform\+::\+Rotate (\begin{DoxyParamCaption}\item[{float}]{angle,  }\item[{axes}]{axis }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [noexcept]}}
+
+
+
+Поворот модели 
+
+
+\begin{DoxyParams}{Parameters}
+{\em angle} & Угол поворота в градусах \\
+\hline
+{\em axis} & Ось поворота \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classs21_1_1Transform_aa5ce67a2b51aa9e8049499b7d6a37893}\label{classs21_1_1Transform_aa5ce67a2b51aa9e8049499b7d6a37893}} 
+\index{s21::Transform@{s21::Transform}!Scale@{Scale}}
+\index{Scale@{Scale}!s21::Transform@{s21::Transform}}
+\doxysubsubsection{\texorpdfstring{Scale()}{Scale()}}
+{\footnotesize\ttfamily void s21\+::\+Transform\+::\+Scale (\begin{DoxyParamCaption}\item[{float}]{old\+\_\+scale,  }\item[{float}]{new\+\_\+scale }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [noexcept]}}
+
+
+
+Масштабирование модели 
+
+
+\begin{DoxyParams}{Parameters}
+{\em old\+\_\+scale} & Старый масштаб \\
+\hline
+{\em new\+\_\+scale} & Новый масштаб \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Model/model.\+h\item 
+Model/model.\+cc\end{DoxyCompactItemize}
