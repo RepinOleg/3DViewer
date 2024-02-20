@@ -8,14 +8,14 @@
     * Выбор цвета фона
 
     * Изменение размера и цвета вершин и ребер
-    
+
     * Изменение типа проекции
 
     *Настройки сохраняются при выходе из приложения*
     
 * Установка
 
-**Go to the src/s21_3DViewer_v2_0 folder and run make install to install the application**
+**Перейдите в папку src/s21_3DViewer_v2_0 и запустите команду *make install***
 
 ![](images/skull)
 
