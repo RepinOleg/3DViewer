@@ -5,3 +5,5 @@
 * Go to the src/s21_3DViewer_v2_0 folder and run make install to install the application
 
 ![](images/skull)
+
+![](images/skull.png)
